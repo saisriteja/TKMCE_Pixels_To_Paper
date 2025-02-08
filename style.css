@@ -10,6 +10,14 @@ body {
     background-color: #f4f4f4;
     color: #333;
     padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;  /* Limit the max width for large screens */
+    margin: 0 auto;
 }
 
 header {
@@ -29,7 +37,6 @@ header p {
 
 h2, h3 {
     color: #2980b9;
-    margin-bottom: 20px;
 }
 
 section {
@@ -42,22 +49,15 @@ table {
     margin-top: 20px;
 }
 
-table, th, td {
-    border: 1px solid #ddd;
-}
-
 th, td {
     padding: 10px;
     text-align: left;
+    border: 1px solid #ddd;
 }
 
 th {
     background-color: #2980b9;
     color: #fff;
-}
-
-tr:nth-child(even) {
-    background-color: #f9f9f9;
 }
 
 ul {
